@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" 
+          type="image/png" 
+          href="./img/favicon.webp">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>telecomsteve</title>
+<link rel="stylesheet" href="./stylesheet.css">
+
+<style>
+    mark { 
+      background-color: orange;
+      color: black;
+    }
+    </style>
+
+</head>
+<body>
+
+    <div class="sidenav">
+        <div class="navblock">
+            <div class="navblock_text">
+                <a href="./index.html">About</a>
+                <a href="./academic.html">Academic</a>
+                <a style="color:#3498DB" href="./research.html">Research</a>
+                <a href="./resume.html">Resume</a>
+                <a href="./gallery.html">Gallery</a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Kirteyman</p>
+        </div>
+    </div>
+
+<div class="main">
+    <h2><mark>M.Tech. Thesis </mark></h2>
+    <h3 class="resume_accent">Title: Design and development of elastic scattering spectroscopy (ESS)-based probe for breast cancer diagnosis and margin detection. </h3>
+    <p> Breast cancer is one of the leading causes of death in the female population worldwide. The death rate can
+        be reduced with efficient diagnostic techniques at the early stage. This research showcased a novel, robust, and cost-
+        effective elastic scattering spectroscopy (ESS)-based probe that can aid surgeons in effectively diagnosing breast cancer
+        during surgery. The experiments were performed on formalin-fixed malignant and adjacent normal breast tissues obtained
+        from N=18 patients. The ESS-Dx probe utilizes four different laser diodes for illumination with operating wavelengths of
+        850 nm, 980 nm, 1270 nm, and 1550 nm.</p>
+        <p></p>The proposed ESS-based probe system is able to distinguish the cancerous tissue (C) and adjacent normal tissue (N) based on their optical properties (Reflectance, Absorption coefficient, and  Scattering coefficient ).  </p>
+   
+    <ul style="list-style: none;">
+    <embed src="img/pdf/ess.pdf" type="application/pdf" width="100%" height="700" scrolling="yes" view="fitH" />
+    </ul>
+    <br>
+
+    <h2><mark>M.Tech Miniprojects</mark></h2>
+    <h3 class="resume_accent">Project 1: Three Axis Gimbal.</h3>
+    <p><strong>Course:</strong> Mechatronics System Design </p>
+    <p><strong>Course Instructor:</strong> Professor L Umanand</p>
+    <ul>
+        <li>Designed a self-stabilizing platform that keeps its payload at a level despite external movement. This is achieved by stacking three perpendicular rotational axes attached to servo motors.</li>
+        <li>The gyroscope monitors the platform's tilt continuously. The microcontroller then uses this information to generate PWM signal for each servo motor.</li>
+        <li>These servo motors rotate the arms in opposite directions of the movement, nullifying the overall effect.</li>
+    </ul>
+    
+    <br>
+
+    <h3 class="resume_accent">Project 2: Intrusion Detection System.</h3>
+    <p><strong>Course:</strong> Design for the Internet of Things </p>
+    <p><strong>Course Instructor:</strong> Professor T.V. Prabhakar</p>
+    <ul>
+        <li>Developed a smart mat employing a grid of pressure sensors for intruder detection. This system is further enhanced with a geophone sensor that identifies intruders based on floor vibrations caused by footsteps.</li>
+        <li>Both sensors wirelessly transmit alerts in real-time to the owner via the Message Queuing Telemetry Transport (MQTT) protocol. It supports bi-directional messaging and ensures reliable message delivery through Quality of service (QoS) measures.</li>
+    </ul>
+    
+    <br>
+
+    <h3 class="resume_accent">Project 3: Bird and animal Call detection.</h3>
+    <p><strong>Course:</strong> Hardware Acceleration and Optimization for Machine Learning </p>
+    <p><strong>Course Instructor:</strong> Professor Chetan Singh Thakur</p>
+    <ul>
+        <li>Developed an animal and bird call detection system using a neural network. Short audio segments (3.5 seconds) were extracted from continuous-time data to calculate mel-frequency cepstral coefficients (MFCCs) representing spectral characteristics of the audio segments.</li>
+        <li>A 1D Convolutional Neural Network with eight filters and a kernel size of three extracts patterns from the MFCCs. These patterns are then fed to a fully connected layer that classifies the audio signal to a specific animal or bird species.</li>
+    </ul>    
+    <br>
+
+    <h3 class="resume_accent">Project 4: Implemented an 8-bit adder in LTspice in CMOS logic.</h3>
+    <p><strong>Course:</strong> Efficient and secure digital circuits and systems </p>
+    <p><strong>Course Instructor:</strong> Professor Utsav Banerjee</p>
+    
+    <ul>
+        <li>Designed an 8-bit carry look-ahead adder circuit in CMOS logic using 45 nm process technology in LTspice. The design had a worst-case power of 22.675 microwatts and a worst-case delay of 119.8 picoseconds, suitable for low-power implementations.</li>
+    </ul>
+    
+    <br>
+
+    <h3 class="resume_accent">Project 5: Smart Water Supply Management System.</h3>
+    <p><strong>Course:</strong> Design of Analog Electronics and Industrial Instrumentation</p>
+    <p><strong>Course Instructor:</strong> Professor Arup Polley</p>
+    <ul>
+        <li>Built a water level indicator system to estimate the water level in the tanks. The central controller then uses this information to regulate the pumps accordingly.</li>
+        <li>Each node communicates wirelessly with the central controller using the multi-receiver capacity of the 2.4 GHz Transceiver (nRF24L01) module.</li>
+    </ul>    
+    <br>
+
+    <h3 class="resume_accent">Project 6: Sine waveform generator using the CORDIC algorithm.</h3>
+    <p><strong>Course:</strong> Digital Design with FPGAs</p>
+    <p><strong>Course Instructor:</strong> Professor Kuruvilla Varghese</p>
+    <ul>
+        <li>Designed the Datapath and the control path of the resource-constrained architecture in Verilog and demonstrated its functionality on the BASYS3 FPGA Board.</li>
+        <li>The CORDIC algorithm implemented in the generator allows it to generate frequencies up to an output frequency limit of 100 MHz.</li>
+    </ul>
+    <br>
+
+    <h2><mark>B.Tech. Projects</mark></h2>
+    <h3 class="resume_accent">Project 1: Estimating body weight of a lying patient for adjustment of Intravenous (IV) contrast dosage during CT scans.</h3>
+    <p><strong>Collaborator:</strong> GE Healthcare, Bangalore</p>
+    <ul>
+        <li>An Optimum Dosage of IV contrast is necessary to improve the accuracy of the examination while preventing overdose.</li>
+        <li>The developed system uses an RGB-Depth camera to generate a 3D Point cloud of the patient lying on the bed.</li>
+        <li>The data is preprocessed to acquire the patient's point cloud after removal of background data.</li>
+        <li>The anthropometric feature values are then extracted from the patient point cloud and given to an ANN model as input values, predicting the patient's body weight.</li>
+        <li>Achieved an accuracy of 73% in body weight prediction.</li>
+    </ul>
+    <img src="img/bwe_img.webp" alt="Body Weight Estimator" width="1000" height="500">
+    <br>
+
+    <h3 class="resume_accent">Project 2: Supply bot to deliver relief aid to flood-affected zones.</h3>
+    <p><strong>Collaborator:</strong> GE Healthcare, Bangalore</p>
+    <ul>
+        <li>Built an autonomous supply bot that communicates wirelessly with the camera.</li>
+        <li>Performed image processing using OpenCV to detect nodes and identify the appropriate aid required by a state.</li>
+        <li>Emulated the functionality of a geostationary satellite through a ceiling-mounted camera, enabling the acquisition of real-time location data of flood-affected areas.</li>
+        <li>Designed and implemented a targeted delivery system to launch aid supplies to identified locations.</li>
+        
+    </ul>
+    
+    <br>
+
+</div>
+
+</body>
+</html> 
